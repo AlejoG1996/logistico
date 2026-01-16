@@ -29,18 +29,10 @@ const AppRoutes = () => {
       element: <Login />,
     },
     {
-      path: "/chat2",
+      path: "/chat",
       element: <Chat />,
     },
     // ✅ Ruta protegida - SOLO accesible si estás logueado
-    {
-      path: "/chat",
-      element: (
-        <ProtectedRoute>
-          <Chat />
-        </ProtectedRoute>
-      ),
-    },
 
     // ✅ Ruta 404
     {
