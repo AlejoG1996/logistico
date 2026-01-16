@@ -29,7 +29,7 @@ const AppRoutes = () => {
       element: <Login />,
     },
     {
-      path: "/chat",
+      path: "/chat2",
       element: <Chat />,
     },
     // ✅ Ruta protegida - SOLO accesible si estás logueado
