@@ -29,7 +29,7 @@ function Login() {
     console.log("🚀 handleLogin ejecutándose...");
 
     setError(null);
-    navigate(from2, { replace: false });
+    navigate(from, { replace: false });
     // try {
     //     navigate(from2, { replace: true });
     //   const result = await login(email, password);
